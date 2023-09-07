@@ -10,6 +10,6 @@
 int main(void)
 {
 	fprintf(stderr, "An error occurred.\n");
-	exit(1);
+	return(1);
 }
 
