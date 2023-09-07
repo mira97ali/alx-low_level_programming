@@ -16,4 +16,10 @@ Wrote a script that compiles a C file but does not link
 
 Created the file 2-assembler
 
-Wrote a script that generates the assembly code of a C code and save it in an output file.
+Wrote a script that generates the assembly code of a C code and save it in an output file
+
+3. Name
+
+Created the file 3-name
+
+Wrote a script that compiles a C file and creates an executable named cisfun
