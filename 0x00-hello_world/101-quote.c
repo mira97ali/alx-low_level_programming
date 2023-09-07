@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	fprintf(stderr, "An error occurred.\n");
-	return(1);
+	fprintf(stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+	exit(1);
 }
 
