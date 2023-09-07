@@ -8,6 +8,12 @@ Wrote a script that runs a C file through the preprocessor and save the result i
 
 1. Compiler
 
-reated the file 1-compiler
+Created the file 1-compiler
 
 Wrote a script that compiles a C file but does not link
+
+2. Assembler
+
+Created the file 2-assembler
+
+Wrote a script that generates the assembly code of a C code and save it in an output file.
