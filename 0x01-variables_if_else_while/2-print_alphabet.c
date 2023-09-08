@@ -7,14 +7,16 @@
  */
 int main(void)
 {
-    char c;
+	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz
+";
+	int i;
 
-    for (c = 'a'; c <= 'z'; c++)
-    {
-        putchar(c);
-    }
-    putchar('\n');
+	for (i = 0; i < 26; i++)
+	{
+        	putchar(alphabet[i]);
+	}
+	putchar('\n');
 
-    return (0);
+	return (0);
 }
 
