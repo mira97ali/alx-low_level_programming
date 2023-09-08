@@ -3,17 +3,18 @@
 /**
  * main - Entry point
  *
+ * Description: Prints the lowercase alphabet without spaces.
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz
-";
+	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz\n";
 	int i;
 
 	for (i = 0; i < 26; i++)
 	{
-        	putchar(alphabet[i]);
+		putchar(alphabet[i]);
 	}
 	putchar('\n');
 
