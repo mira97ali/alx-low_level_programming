@@ -7,11 +7,12 @@ int main(void)
 {
 	int a = 1, b = 2;
 	int count = 0;
+	int temp;
 
 	while (count < 98)
 	{
 		printf("%d, ", a);
-		int temp = a;
+		temp = a;
 
 		a = b;
 		b = temp + b;
