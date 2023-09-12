@@ -10,7 +10,7 @@ int main(void)
 	unsigned long int temp;
 	int count = 0;
 
-	while (count < 98)
+	while (count <= 98)
 	{
 		printf("%lu, ", a);
 		temp = a;
