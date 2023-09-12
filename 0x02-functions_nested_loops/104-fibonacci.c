@@ -5,20 +5,20 @@
  */
 int main(void)
 {
-	long long a = 1, b = 2;
+	unsigned long int a = 1, b = 2;
 	int count = 0;
 
 	while (count < 98)
 	{
-		printf("%lld, ", a);
-		long long temp = a;
+		printf("%lu, ", a);
+		unsigned long int temp = a;
 
 		a = b;
 		b = temp + b;
 
 		count++;
 	}
-	printf("%lld\n", a);
+	printf("%lu\n", a);
 	return (0);
 }
 
