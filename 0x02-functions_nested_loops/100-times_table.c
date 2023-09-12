@@ -20,17 +20,16 @@ void print_times_table(int n)
 			{
 				int result = i * j;
 
+				_putchar(',');
+				_putchar(' ');
 				if (result < 10)
-				{
-					_putchar(',');
 					_putchar(' ');
+				if (result < 100)
 					_putchar(' ');
+				if (result < 10)
 					_putchar('0' + result);
-				}
 				else
 				{
-					_putchar(',');
-					_putchar(' ');
 					_putchar('0' + result / 10);
 					_putchar('0' + result % 10);
 				}
