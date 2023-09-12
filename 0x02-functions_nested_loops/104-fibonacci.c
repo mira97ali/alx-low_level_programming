@@ -12,7 +12,7 @@ int main(void)
 	unsigned long int aft = 2;
 	unsigned long int bef1;
 	unsigned long int bef2;
-	unsigned long int aftl;
+	unsigned long int aft1;
 	unsigned long int aft2;
 
 	printf("%lu", bef);
@@ -26,14 +26,14 @@ int main(void)
 
 	bef1 = (bef / 1);
 	bef2 = (bef % 1);
-	aftl = (aft / 1);
+	aft1 = (aft / 1);
 	aft2 = (aft % 1);
 
 	for (i = 92; i < 99; ++i)
 	{
-		printf(", %lu", aftl + (aft2 / 1));
+		printf(", %lu", aft1 + (aft2 / 1));
 		printf("%lu", aft2 % 1);
-		aftl = aft1 + bef1;
+		aft1 = aft1 + bef1;
 		bef1 = aft1 - bef1;
 		aft2 = aft2 + bef2;
 		bef2 = aft2 - bef2;
