@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * reset_to_98 - Updates the value of the variable
- * pointed to by the pointer to 98 within the main function.
- *
- * @n: Pointer to the variable to update.
+ * swap_int - Updates the value of the variable
+ * @a: pointer to first value
+ * @b: pointer to second value
  */
 
 void swap_int(int *a, int *b)
