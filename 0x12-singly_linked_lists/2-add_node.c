@@ -10,29 +10,23 @@
 * Return: If the function fails - NULL.
 *         Otherwise - the address of the new element.
 */
+
 list_t *add_node(list_t **head, const char *str)
 {
-	list_t *newElement;
-	char *strCopy;
+	list_t *newNode;
+	unsigned int len = 0;
 
-	if (str == NULL)
-		return NULL;
+	while (str[len])
+		len++;
 
-	newElement = malloc(sizeof(list_t));
-	if (newElement == NULL)
-		return NULL;
+	newNode = malloc(sizeof(list_t));
+	if (!newNode)
+		return (NULL);
 
-	strCopy = strdup(str);
-	if (strCopy == NULL)
-	{
-		free(newElement);
-		return NULL;
-	}
+	newNode->str = strdup(str);
+	newNode->len = len;
+	newNode->next = (*head);
+	(*head) = newNode;
 
-	newElement->str = strCopy;
-	newElement->len = strlen(strCopy);
-	newElement->next = *head;
-	*head = newElement;
-
-	return newElement;
+	return (*head);
 }
