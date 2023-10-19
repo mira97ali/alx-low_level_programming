@@ -1,6 +1,6 @@
-#include "lists.h"
-#include <string.h>
 #include <stdlib.h>
+#include <string.h>
+#include "lists.h"
 
 /**
 * add_node - Adding a new node at the beginning
