@@ -2,12 +2,13 @@
 #include "lists.h"
 
 /**
-* custom_list_len - Counts the number of elements in a linked list.
-* @current: A pointer to the list_t linked list.
+* list_len - Counts the num of elements in a linked list.
+* @current: A pointer to the list_t list.
 *
 * Return: The count of elements in the linked list.
 */
-size_t custom_list_len(const list_t *current)
+
+size_t list_len(const list_t *current)
 {
 	size_t elementCount = 0;
 
