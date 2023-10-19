@@ -27,6 +27,6 @@ size_t print_list(const list_t *current)
 		current = current->next;
 	}
 
-	return nodeCount;
+	return (nodeCount);
 }
 
