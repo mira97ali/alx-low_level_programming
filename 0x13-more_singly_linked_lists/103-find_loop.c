@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-* findLinkedListLoop - Finds the loop in a linked list.
+* find_listint_loop - Finds the loop in a linked list.
 * @pointer: Linked list to search for a loop
 *
 * Return: Address of the node where the loop starts, or NULL if no loop exists
@@ -9,7 +9,7 @@
 * Author: Amira
 */
 
-listint_t *findLinkedListLoop(listint_t *pointer)
+listint_t *find_listint_loop(listint_t *pointer)
 {
 	listint_t *slowPointer = pointer;
 	listint_t *fastPointer = pointer;
