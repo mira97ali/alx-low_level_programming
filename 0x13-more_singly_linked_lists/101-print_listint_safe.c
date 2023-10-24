@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-* printSafeLinkedList - Safely prints a linked list even if it has loops.
+* print_listint_safe - Safely prints a linked list even if it has loops.
 * @pointer: Pointer to the first node of the linked list
 *
 * Return: The number of nodes in the list
@@ -9,7 +9,7 @@
 * Author: Amira
 */
 
-size_t printSafeLinkedList(const listint_t *pointer)
+size_t print_listint_safe(const listint_t *pointer)
 {
 	const listint_t *currentNode = NULL;
 	const listint_t *loopNode = NULL;
