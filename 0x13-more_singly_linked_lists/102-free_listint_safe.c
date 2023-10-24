@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-* freeSafeLinkedList - Frees a linked list and ensures safe deallocation.
+* free_listint_safe - Frees a linked list and ensures safe deallocation.
 * @pointer: Pointer to the first node in the linked list
 *
 * Return: The number of elements in the freed list
@@ -9,7 +9,7 @@
 * Author: Amira
 */
 
-size_t freeSafeLinkedList(listint_t **pointer)
+size_t free_listint_safe(listint_t **pointer)
 {
 	size_t elementCount = 0;
 	int addressDifference;
