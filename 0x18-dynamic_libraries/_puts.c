@@ -9,7 +9,5 @@ void _puts(char *s)
 {
 	if (s)
 	{
-		return (NULL);
 	}
-	return (NULL);
 }
